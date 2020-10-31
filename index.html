@@ -1,0 +1,435 @@
+<html>
+    <head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+
+  <link href="./styles/main.css" rel="stylesheet">
+
+  <script src="./scripts//main.js"></script>
+
+        <title>HAPPY HALLOWEEN !!! </title>
+    </head>
+
+    <body >
+        
+      <header>
+        <nav>
+            <div class="nav-wrapper ">
+              <a href="#!" class="brand-logo ">HAPPY HALLOWEEN</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src="https://img.icons8.com/cotton/64/000000/witch.png"/></a>
+              <ul class="right hide-on-med-and-down">
+                <li onclick="trickHandler()"><a href="#">TRICK</a></li>
+                <li onclick="treatHandler()"><a href="#">TREAT</a></li>
+            
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">TRICK</a></li>
+            <li><a href='#'>TREAT</a></li>
+           
+          </ul>
+                
+      </header>
+
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604019663/samples/landscapes/choosedTrick1_nuqk1x.mp3" controls id='trick' ></audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604019659/samples/landscapes/choosedTreat1_moxxbn.mp3" controls id="treat"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604019690/samples/landscapes/kybrotikwy_qpoiv0.mp3"  controls id="startSound"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604019650/samples/landscapes/horror_sound_effect_128k_rguqy3.mp3"  controls loop id="horror"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103255/samples/landscapes/wickedwitch_cug3wo.mp3"  controls id="killerWitch"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604102965/samples/landscapes/deathkin_cdkqd8.mp3"  controls id="kinKeeper"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103181/samples/landscapes/hellpump_rf41wg.mp3"  controls id="hellPump"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103146/samples/landscapes/fallendemon_vzxmhj.mp3"  controls id="fallenDemon"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103109/samples/landscapes/evilvamp2_ndpeda.mp3"  controls id="evilVamp"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103073/samples/landscapes/devilring_jte2le.mp3"  controls id="devilRing"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103037/samples/landscapes/devilelf_bweyc1.mp3"  controls id="devilElf"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604103001/samples/landscapes/deathtimek_pm9p65.mp3"  controls id="deathTimeKeeper"> </audio>
+    <audio src="https://dl.dropbox.com/s/dox14fkyvmljw3d/deathkin.mp3?dl=1"  controls id="deathKin"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604102929/samples/landscapes/death_ad2zxh.mp3"  controls id="death"> </audio>
+    <audio src="https://res.cloudinary.com/ecommerce1/video/upload/v1604102893/samples/landscapes/cursedface_mtdlfc.mp3"  controls id="cursedFace"> </audio>
+    <!-- <audio src="" id="treat"> </audio> -->
+   
+      <section class='main-page' id="page1">
+        <h1>WELCOME TO THE PARTY</h1>
+
+        <p>I DARE YOU TO ENTER</p>
+
+        <div class="button1">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="100" height="100"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="aladin" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#fff"><path d="M48.805,0c-3.45344,0 -6.58437,1.935 -8.2775,4.945l-18.5975,33.0025c-0.9675,1.72 -1.3975,3.72219 -1.29,5.6975l6.665,120.0775c-10.38719,0.72563 -17.3075,1.3975 -17.3075,1.3975c-1.89469,0.17469 -3.29219,1.86781 -3.1175,3.7625c0.17469,1.89469 1.86781,3.29219 3.7625,3.1175c0,0 32.02156,-3.44 75.3575,-3.44c43.33594,0 75.3575,3.44 75.3575,3.44c1.89469,0.17469 3.58781,-1.22281 3.7625,-3.1175c0.17469,-1.89469 -1.22281,-3.58781 -3.1175,-3.7625c0,0 -6.92031,-0.67187 -17.3075,-1.3975l6.665,-120.0775c0.1075,-1.97531 -0.3225,-3.9775 -1.29,-5.6975l-18.5975,-33.0025c-1.69312,-2.99656 -4.82406,-4.945 -8.2775,-4.945zM48.805,6.88h74.39c0.90031,0 1.70656,0.52406 2.2575,1.505l18.5975,32.895c0.30906,0.56438 0.47031,1.24969 0.43,1.935l-6.665,120.0775c-13.34344,-0.80625 -31.22875,-1.6125 -51.815,-1.6125c-20.58625,0 -38.47156,0.80625 -51.815,1.6125l-6.665,-120.0775c-0.04031,-0.68531 0.12094,-1.37062 0.43,-1.935l18.5975,-33.0025c0.55094,-0.9675 1.35719,-1.3975 2.2575,-1.3975zM49.45,56.6525v39.0225h7.31v-16.555h3.9775c1.53188,0 2.6875,0.41656 3.3325,1.29c0.65844,0.87344 1.00781,2.12313 1.075,3.655l0.1075,7.4175c0.04031,0.76594 0.1075,1.54531 0.215,2.2575c0.09406,0.71219 0.37625,1.38406 0.7525,1.935h7.955v-0.43c-0.68531,-0.40312 -1.08844,-1.06156 -1.29,-2.15c-0.13437,-1.08844 -0.25531,-2.76812 -0.3225,-4.8375c-0.04031,-1.06156 -0.06719,-1.94844 -0.1075,-2.795c-0.04031,-0.86 -0.04031,-1.63937 -0.1075,-2.365c-0.20156,-2.19031 -0.76594,-3.85656 -1.6125,-4.8375c-0.86,-0.98094 -2.24406,-1.53187 -4.085,-1.8275v-0.1075c2.08281,-0.47031 3.64156,-1.57219 4.6225,-3.225c0.99438,-1.65281 1.505,-3.82969 1.505,-6.45c0,-3.38625 -0.87344,-5.87219 -2.58,-7.525c-1.70656,-1.65281 -4.12531,-2.4725 -7.2025,-2.4725zM85.355,56.6525v38.915h7.4175v-38.915zM105.2425,56.6525v38.915h7.4175v-15.48h3.9775c1.74688,0 3.30563,-0.28219 4.73,-0.7525c1.43781,-0.47031 2.66063,-1.20937 3.655,-2.15c1.00781,-0.94062 1.80063,-2.16344 2.365,-3.655c0.56438,-1.49156 0.86,-3.26531 0.86,-5.2675c0,-1.45125 -0.20156,-2.9025 -0.5375,-4.3c-0.33594,-1.3975 -0.94062,-2.56656 -1.72,-3.655c-0.79281,-1.08844 -1.73344,-2.01562 -3.01,-2.6875c-1.27656,-0.67187 -2.95625,-0.9675 -4.8375,-0.9675zM56.76,62.35h3.5475c3.41313,0 5.0525,1.88125 5.0525,5.4825c0,2.10969 -0.44344,3.62813 -1.3975,4.515c-0.95406,0.90031 -2.31125,1.29 -4.085,1.29h-3.1175zM112.66,62.35h3.1175c1.84094,0 3.09063,0.59125 3.87,1.6125c0.79281,1.02125 1.1825,2.44563 1.1825,4.4075c0,2.00219 -0.38969,3.57438 -1.29,4.515c-0.90031,0.94063 -2.19031,1.3975 -3.655,1.3975h-3.225z"></path>
+                </g>
+                </g>
+                </svg>
+            </span>
+
+             <button class="enter purple" id='enterBtn' onclick="start()"><h3>ENTER</h3></button>
+        
+        </div>
+     
+        <img class='image1' src='https://res.cloudinary.com/ecommerce1/image/upload/v1603970328/samples/landscapes/halloween-2019-blog-1-1_ji1922.jpg' />
+        
+   
+        </section>
+
+        <div class="page2" id="page2" >
+        <section class='choose-page'>
+            <div class="row">
+                <div class="choose col  s12">I DARE YOU TO CHOOSE ONE </div>
+                <div class="col l6  s12">
+                    <div class="card1" onclick="this.classList.toggle('expanded')">
+                          <div class="text1">
+                          <div class="text-content">
+                            <h1 class="title">TRICK</h1>
+                            <div class="body-text">are delivered with the same high quality as decades ago</div>
+                          </div>
+                        </div>
+                        
+                       <button class="btn orange " id='trickBtn' onclick="trickHandler()">CHOOSE</button>
+                        <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="orange" stroke-width="8"/></svg>
+                    </div>
+                      
+                </div>
+                   
+                <div class="col l6  s12">
+                <div class="card2" onclick="this.classList.toggle('expanded')">
+                    <div class="text2">
+                    <div class="text-content">
+                      <h1 class="title">TREAT</h1>
+                      <div class="body-text">has stayed the same reliable brand for nearly a century</div>
+                    </div>
+                  </div>
+
+                  <button class="btn purple " id="treatBtn" onclick="treatHandler()">CHOOSE</button>
+                  <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#ba10ee" stroke-width="8"/></svg>
+                     
+                </div>
+
+              </div>
+
+            </div>
+                    
+              <div class="choose col s12"> DONT BE SCARED WE ATE ONLY SOUL  </div>
+        </section>
+    </div>
+  
+
+    <section class='treat-page' id="treatPage">
+
+            
+        <div class="row" id="card3">
+
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092099/samples/landscapes/spooky-halloween-candy-1_hy2qct.jpg">
+                      <span class="card-title">DEVILS CREAM</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092127/samples/landscapes/show_hotk6g.jpg">
+                      <span class="card-title">WITCHES LUNCH</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092106/samples/landscapes/Candy-Bones-e1446212529949_qqhpwq.jpg">
+                      <span class="card-title">WIZARD CANDY</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+    
+            </div>
+    
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092150/samples/landscapes/1467488502176_paensc.jpg">
+                      <span class="card-title">NOSFACOHOO SWEET</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092177/samples/landscapes/dsc_0005-spooky-candy-bark_sk5oxk.jpg">
+                      <span class="card-title">CHOCOBEAST CHOCO</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092138/samples/landscapes/pexels-photo-3095465_cgeweu.jpg">
+                      <span class="card-title">BOO!!! GHOSTWEET</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092116/samples/landscapes/Halloween-Themed-Candy-Apples_zvs4ce.jpg">
+                      <span class="card-title">HELL-CREAMED APPLE</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092164/samples/landscapes/bloody-caramel-apples-56a0edaa3df78cafdaa67d3c_ayaajv.jpg">
+                      <span class="card-title">BLOODY MARY SCARED APPLE</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092193/samples/landscapes/candy-spiders-520972-hero_01-3c8e698cb4f44f328840c8de87edf9ba_qdalkw.jpg">
+                      <span class="card-title">CANDY SPIDEY</span>
+                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">card_giftcard</i></a>
+                    </div>
+                    <div class="card-content">
+                      <p>TOUCH NOT THE CARD OF DEATH</p>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+            </section>
+
+   <section class="trick-page" id="trickPage">
+                <div class="row" id="card4">
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="deathKin()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092522/samples/landscapes/boo-yall-halloween-scary-creepy-spooky-pumpkin-teequeen2603_yrtwhf.jpg">
+                                <span class="card-title">DEATH KIN</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                                <!-- ...... -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="kinKeeper()" >
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092808/samples/landscapes/halloween-girl-skeleton-hold-pumpkin-and-lamp-against-the-background-of-the-crypt-day-of-dead-celebration-body-painting-and-art-life-and-death-conc-PK483B_ssoyzq.jpg">
+                                <span class="card-title">EVIL KIN-KEEPER</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="evilVamp()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092745/samples/landscapes/395928cc1830ffc4675cbcb923212617_xlotnk.jpg">
+                                <span class="card-title">LAST EVIL VAMP</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="cursedFace()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092786/samples/landscapes/halloween-1787545_960_720_f8s6xf.jpg">
+                                <span class="card-title">CURSE FACE</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="hellKin()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604092487/samples/landscapes/hqdefault_u5u5xv.jpg">
+                                <span class="card-title">HELL PUMPKIN</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="fallenDemon()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096720/samples/landscapes/27764-dark-grim-reaper-wings-death-skeleton-horror-scary-creepy-spooky-moon-gothic-art-748x561_wc7wnw.jpg">
+                                <span class="card-title">FALLEN DEMON</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="timeKeeper()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096684/samples/landscapes/stock-photo-scary-death-hold-a-watch-in-his-hand-realistic-skull-makeup-488843956_gxbepy.jpg">
+                                <span class="card-title">DEATH TIME-KEEPER</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="elfDemon()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096518/samples/landscapes/elfo_20devil_20DEMO_sa2qfw.jpg">
+                                <span class="card-title">ELFIONA DEVIL</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="deathRing()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096368/samples/landscapes/61EPDnx0PrL._AC_UX500__bv8lrm.jpg">
+                                <span class="card-title">CURSED RING OF DEATH</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card" onclick="killerWitch()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096404/samples/landscapes/Scary-Witch_art_mucvfw.jpg">
+                                <span class="card-title">KILLER WITCH</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col l4 m6 s12">
+                        <div class="card"  onclick="death()">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/ecommerce1/image/upload/v1604096617/samples/landscapes/image-asset_boi83c.jpg">
+                                <span class="card-title">DEATH GRIMMER</span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                        class="material-icons">card_giftcard</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>CAUTION!!! DONT LOOK OR TOUCH IF YOU WISH TO LIVE!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+                </div>
+            </section>
+      
+
+</body>
+
+</html>
